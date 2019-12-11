@@ -1,0 +1,37 @@
+{
+	"w-affix/offsetBottom": {
+		"description": "距离窗口底部达到指定偏移量后触发，单位 px",
+		"optionType": "Number",
+		"defaultValue": "-"
+	},
+	"w-affix/offsetTop": {
+		"description": "距离窗口顶部达到指定偏移量后触发，单位 px",
+		"optionType": "Number",
+		"defaultValue": "10"
+	},
+	"w-affix/index": {
+		"description": "图钉定位的层级",
+		"optionType": "Number",
+		"defaultValue": "10"
+	},
+	"w-affix/disabled": {
+		"description": "图钉是否禁用，如果为 true ，那么到达条件也不悬停定位",
+		"optionType": "Boolean",
+		"defaultValue": "false"
+	},
+	"w-affix/destroy": {
+		"description": "是否删除滚动监听",
+		"optionType": "Boolean",
+		"defaultValue": "true"
+	},
+	"w-affix/position": {
+		"description": "图钉的定位类型",
+		"optionType": "String",
+		"defaultValue": "fixed"
+	},
+	"w-affix/change": {
+		"description": "滚动触发的方法，返回 {总状态，滚动状态}({affixStatus, scrollStatus})",
+		"optionType": "Function",
+		"defaultValue": "() => {}"
+	}
+}

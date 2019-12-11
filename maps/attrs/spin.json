@@ -1,0 +1,22 @@
+{
+	"w-spin/tip": {
+		"description": "当作为包裹元素时，可以自定义描述文案",
+		"optionType": "String",
+		"defaultValue": "-"
+	},
+	"w-spin/color": {
+		"description": "自定义 icon 的颜色，只有在默认 icon 的时候有效",
+		"optionType": "String",
+		"defaultValue": "#333"
+	},
+	"w-spin/size": {
+		"description": "设置大小",
+    "options": [
+      "small",
+      "large",
+      "不设置"
+    ],
+		"optionType": "String",
+		"defaultValue": "-"
+	}
+}

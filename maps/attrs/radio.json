@@ -1,0 +1,47 @@
+{
+	"w-radio/label": {
+		"description": "设置选中的值",
+		"optionType": "Number | String | Boolean",
+		"defaultValue": "-"
+	},
+	"w-radio/disabled": {
+		"description": "设置禁用状态",
+		"optionType": "Boolean",
+		"defaultValue": "-"
+	},
+	"w-radio/loading": {
+		"description": "设置载入状态",
+		"optionType": "Boolean",
+		"defaultValue": "-"
+	},
+	"w-radio/textColor": {
+		"description": "文字的颜色, 0.11.0 新增",
+		"optionType": "String",
+		"defaultValue": "-"
+	},
+	"w-radio/hoverColor": {
+		"description": "鼠标移入的颜色",
+		"optionType": "String",
+		"defaultValue": "#34abfe"
+	},
+	"w-radio/checkColor": {
+		"description": "选中的颜色",
+		"optionType": "String",
+		"defaultValue": "#1890ff"
+	},
+	"w-radio/className": {
+		"description": "组件最外层的 class 名字",
+		"optionType": "String | Object | Array",
+		"defaultValue": "-"
+	},
+	"w-radio/before": {
+		"description": "输入之前触发的方法，参数 {Event对象,选中的label,选中的值}({ev,label,value})，返回 Promise 对象",
+		"optionType": "Function",
+		"defaultValue": "function({ev,label,value}) {return new Promise((resolve, reject) => {resolve();});}"
+	},
+	"w-radio/change": {
+		"description": "输入时触发的方法，返回 {Event对象,选中的label,选中的值,当前状态}({ev,label,value,status})",
+		"optionType": "Function",
+		"defaultValue": "({ev,label,value,status}) => {}"
+	}
+}

@@ -1,0 +1,37 @@
+{
+	"w-switch/disabled": {
+		"description": "设置禁用状态",
+		"optionType": "Boolean",
+		"defaultValue": "-"
+	},
+	"w-switch/loading": {
+		"description": "设置载入状态",
+		"optionType": "Boolean",
+		"defaultValue": "-"
+	},
+	"w-switch/stop": {
+		"description": "点击事件是否冒泡",
+		"optionType": "Boolean",
+		"defaultValue": "-"
+	},
+	"w-switch/size": {
+		"description": "设置大小",
+    "options": [
+      "small",
+      "large",
+      "不设置"
+    ],
+		"optionType": "String",
+		"defaultValue": "-"
+	},
+	"w-switch/before": {
+		"description": "改变之前触发，返回 Promise 对象",
+		"optionType": "Function",
+		"defaultValue": "function() {return new Promise((resolve, reject) => {resolve();});}"
+	},
+	"w-switch/change": {
+		"description": "改变触发，返回 {Event对象,当前状态}({ev,status})",
+		"optionType": "Function",
+		"defaultValue": "({ev,status}) => {}"
+	}
+}

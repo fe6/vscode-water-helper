@@ -1,0 +1,53 @@
+{
+	"w-row/tag": {
+		"description": "row 实际渲染的标签",
+		"optionType": "String",
+		"defaultValue": "div"
+	},
+	"w-row/className": {
+		"description": "自定义最外层的 class",
+		"optionType": "String | Object | Array",
+		"defaultValue": "-"
+	},
+	"w-row/align": {
+		"description": "flex 布局下的垂直对齐方式",
+    "options": [
+      "top",
+      "middle",
+      "bottom"
+    ],
+		"optionType": "String",
+		"defaultValue": "-"
+	},
+	"w-row/justify": {
+		"description": "flex 布局下的水平排列方式",
+    "options": [
+      "start",
+      "end",
+      "center",
+      "space-around",
+      "space-between"
+    ],
+		"optionType": "String",
+		"defaultValue": "-"
+	},
+	"w-row/basin": {
+		"description": "栅格上下间隔",
+		"optionType": "Number",
+		"defaultValue": "-"
+	},
+	"w-row/gutter": {
+		"description": "栅格左右间隔",
+		"optionType": "Number",
+		"defaultValue": "-"
+	},
+	"w-row/type": {
+		"description": "栅格布局类型",
+    "options": [
+      "float",
+      "flex"
+    ],
+		"optionType": "String",
+		"defaultValue": "-"
+	}
+}

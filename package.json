@@ -1,0 +1,85 @@
+{
+  "name": "vscode-water-helper",
+  "displayName": "vscode-water-helper",
+  "description": "A vscode extension for WATER",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.40.0"
+  },
+  "categories": [
+    "Snippets",
+    "Other"
+  ],
+  "keywords": [
+    "water",
+    "@fe6/water",
+    "WATER"
+  ],
+  "publisher": "iq9891",
+  "activationEvents": [
+    "onLanguage:html",
+    "onLanguage:vue",
+    "onLanguage:jade",
+    "onLanguage:pug"
+  ],
+  "main": "./out/src/extension.js",
+  "icon": "https://static2.evente.cn/static/img/water.png",
+  "contributes": {
+    "configuration": {
+      "type": "object",
+      "title": "Water Helper Configuration",
+      "properties": {
+        "water-helper.language": {
+          "type": "string",
+          "default": "zh-CN",
+          "description": "Document Language of Water UI",
+          "enum": [
+            "zh-CN"
+          ]
+        },
+        "water-helper.indent-size": {
+          "type": "number",
+          "default": 2,
+          "description": "Indentation size of snippets"
+        },
+        "water-helper.quotes": {
+          "type": "string",
+          "default": "double",
+          "description": "Normal quotes of autocomplete",
+          "enum": [
+            "single",
+            "double"
+          ]
+        },
+        "water-helper.pug-quotes": {
+          "type": "string",
+          "default": "single",
+          "description": "Pug quotes of autocomplete",
+          "enum": [
+            "single",
+            "double"
+          ]
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "yarn run compile",
+    "compile": "sh build.sh",
+    "watch": "sh build.sh -watch",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.1",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.11.7",
+    "@types/vscode": "^1.40.0",
+    "glob": "^7.1.5",
+    "mocha": "^6.2.2",
+    "pretty": "^2.0.0",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4",
+    "vscode-test": "^1.2.2"
+  }
+}

@@ -1,0 +1,62 @@
+{
+	"w-input-number/disabled": {
+		"description": "设置禁用状态",
+		"optionType": "Boolean",
+		"defaultValue": "-"
+	},
+	"w-input-number/readonly": {
+		"description": "设置可读状态",
+		"optionType": "Boolean",
+		"defaultValue": "-"
+	},
+	"w-input-number/min": {
+		"description": "最小值",
+		"optionType": "Number",
+		"defaultValue": "-Infinity"
+	},
+	"w-input-number/max": {
+		"description": "最大值",
+		"optionType": "Number",
+		"defaultValue": "Infinity"
+	},
+	"w-input-number/step": {
+		"description": "每次改变步数，可以为小数",
+		"optionType": "Number",
+		"defaultValue": "1"
+	},
+	"w-input-number/precision": {
+		"description": "数值精度，原则 step 的小数位和 precision 取最多位数的",
+		"optionType": "Number",
+		"defaultValue": "-"
+	},
+	"w-input-number/size": {
+		"description": "设置大小",
+    "options": [
+      "small",
+      "large",
+      "不设置"
+    ],
+		"optionType": "String",
+		"defaultValue": "-"
+	},
+	"w-input-number/decimalSeparator": {
+		"description": "小数点转译",
+		"optionType": "String",
+		"defaultValue": "-"
+	},
+	"w-input-number/formatter": {
+		"description": "指定输入框展示值的格式",
+		"optionType": "Function",
+		"defaultValue": "output => output"
+	},
+	"w-input-number/parser": {
+		"description": "指定从 formatter 里转换回数字的方式，和 formatter 搭配使用，用于输入的时候",
+		"optionType": "Function",
+		"defaultValue": "input => input"
+	},
+	"w-input-number/change": {
+		"description": "改变触发的方法，返回 {当前的值，原始值}({value, original})",
+		"optionType": "Function",
+		"defaultValue": "({value, original}) => {}"
+	}
+}

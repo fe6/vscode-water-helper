@@ -1,0 +1,577 @@
+{
+  "w-affix": {
+    "attributes": [
+      "offsetBottom",
+      "offsetTop",
+      "index",
+      "disabled",
+      "destroy",
+      "position",
+      "change"
+    ],
+    "description": "Make an element stick to viewport"
+  },
+  "w-badge": {
+    "attributes": [
+      "value",
+      "overflowCount",
+      "status",
+      "text",
+      "title",
+      "showZero",
+      "dot"
+    ],
+    "description": "Small numerical value or status descriptor for UI elements."
+  },
+  "w-breadcrumb": {
+    "subtags": ["w-breadcrumb-item"],
+    "description": "A breadcrumb displays the current location within a hierarchy. It allows going back to states higher up in the hierarchy."
+  },
+  "w-breadcrumb-item": {
+    "attributes": [
+      "separator",
+      "to",
+      "routerType",
+      "open",
+      "href"
+    ],
+    "description": "Breadcrumb item"
+  },
+  "w-button": {
+    "attributes": [
+      "type",
+      "size",
+      "htmlType",
+      "loading",
+      "stop",
+      "disabled",
+      "ghost",
+      "className",
+      "click"
+    ],
+    "description": "To trigger an operation"
+  },
+  "w-button-group": {
+    "attributes": [
+      "value",
+      "className"
+    ],
+    "subtags": ["w-button"],
+    "description": "Button of group"
+  },
+  "w-calendar": {
+    "attributes": [
+      "value",
+      "type",
+      "defaultPickerValue",
+      "showDate",
+      "showMonth",
+      "showYear",
+      "showAge",
+      "firstDayOfWeek",
+      "pickerRender",
+      "change"
+    ],
+    "description": "Container for displaying data in calendar form."
+  },
+  "w-cascader": {
+    "attributes": [
+      "value",
+      "options",
+      "emptyText",
+      "searchWidth",
+      "placeholder",
+      "placement",
+      "size",
+      "loading",
+      "disabled",
+      "search",
+      "transfer",
+      "interval",
+      "fieldNames",
+      "before",
+      "getContainer",
+      "searchRender",
+      "displayRender",
+      "change",
+      "click"
+    ],
+    "description": "Cascade selection box."
+  },
+  "w-checkbox": {
+    "attributes": [
+      "value",
+      "label",
+      "disabled",
+      "indeterminate",
+      "textColor",
+      "hoverColor",
+      "checkColor",
+      "className",
+      "change"
+    ],
+    "description": "Checkbox component"
+  },
+  "w-checkbox-group": {
+    "attributes": [
+      "value",
+      "disabled",
+      "hoverColor",
+      "checkColor",
+      "className",
+      "checkboxClassName",
+      "fieldNames",
+      "options",
+      "change"
+    ],
+    "subtags": ["w-checkbox"],
+    "description": "Checkbox group component"
+  },
+  "w-col": {
+    "defaults": [":span"],
+    "attributes": [
+      "tag",
+      "className",
+      "span",
+      "order",
+      "offset",
+      "pull",
+      "push",
+      "xs",
+      "sm",
+      "md",
+      "lg",
+      "xl",
+      "xxl",
+      "basin",
+      "gutter",
+      "type"
+    ],
+    "description": "A column in grid system"
+  },
+  "w-countdown": {
+    "attributes": [
+      "value",
+      "valueStyle",
+      "title",
+      "format",
+      "finish"
+    ],
+    "description": "From one time"
+  },
+  "w-datepicker": {
+    "attributes": [
+      "value",
+      "type",
+      "defaultPickerValue",
+      "placeholder",
+      "size",
+      "format",
+      "valueFormat",
+      "placement",
+      "interval",
+      "firstDayOfWeek",
+      "pickerRender",
+      "disabledRender",
+      "getContainer",
+      "change",
+      "panelChange",
+      "transfer",
+      "editable",
+      "disabled",
+      "open",
+      "clearable",
+      "calendar"
+    ],
+    "description": "To select or input a date of day."
+  },
+  "w-empty": {
+    "attributes": [
+      "image",
+      "imageStyle"
+    ],
+    "description": "Empty state"
+  },
+  "w-icon": {
+    "attributes": [
+      "spin",
+      "className",
+      "color"
+    ],
+    "description": "Semantic vector graphics"
+  },
+  "w-input": {
+    "attributes": [
+      "value",
+      "maxLength",
+      "placeholder",
+      "size",
+      "type",
+      "disabled",
+      "showWordLimit",
+      "readonly",
+      "error",
+      "change"
+    ],
+    "description": "A basic widget for getting the user input is a text field."
+  },
+  "w-input-number": {
+    "attributes": [
+      "value",
+      "disabled",
+      "readonly",
+      "min",
+      "max",
+      "step",
+      "precision",
+      "size",
+      "decimalSeparator",
+      "formatter",
+      "parser",
+      "change"
+    ],
+    "description": "Enter a number within certain range with the mouse or keyboard."
+  },
+  "w-link": {
+    "attributes": [
+      "tag",
+      "href",
+      "target",
+      "size",
+      "loading",
+      "to",
+      "disabled"
+    ],
+    "description": "A link"
+  },
+  "w-modal": {
+    "attributes": [
+      "value",
+      "loading",
+      "mask",
+      "maskClosable",
+      "closable",
+      "esc",
+      "center",
+      "cancelable",
+      "okable",
+      "transfer",
+      "getContainer",
+      "before",
+      "cancel",
+      "ok",
+      "change",
+      "title",
+      "cancelText",
+      "okText",
+      "okType",
+      "modalStyle",
+      "bodyStyle",
+      "footerClassName",
+      "titleClassName",
+      "bodyClassName"
+    ],
+    "description": "Modal dialogs."
+  },
+  "w-page": {
+    "attributes": [
+      "value",
+      "prevText",
+      "nextText",
+      "size",
+      "total",
+      "midleSize",
+      "pageSize",
+      "simple",
+      "change",
+      "showTotal"
+    ],
+    "description": "Page turning"
+  },
+  "w-page-jump": {
+    "attributes": [
+      "value",
+      "size",
+      "prefix",
+      "suffix"
+    ],
+    "description": "Page turn"
+  },
+  "w-popconfirm": {
+    "attributes": [
+      "value",
+      "transfer",
+      "loading",
+      "interval",
+      "placement",
+      "trigger",
+      "cancelText",
+      "okText",
+      "getContainer",
+      "before",
+      "change",
+      "cancel",
+      "ok",
+      "className"
+    ],
+    "description": "A simple and compact confirmation dialog of an action."
+  },
+  "w-popover": {
+    "attributes": [
+      "value",
+      "transfer",
+      "enterDelay",
+      "leaveDelay",
+      "interval",
+      "placement",
+      "trigger",
+      "content",
+      "arrowColor",
+      "titleStyle",
+      "contentStyle",
+      "getContainer",
+      "change",
+      "className"
+    ],
+    "description": "The floating card popped by clicking or hovering."
+  },
+  "w-progress": {
+    "attributes": [
+      "value",
+      "strokeWidth",
+      "width",
+      "type",
+      "strokeLinecap",
+      "status",
+      "format",
+      "inside"
+    ],
+    "description": "Display the current progress of an operation flow."
+  },
+  "w-radio": {
+    "attributes": [
+      "value",
+      "label",
+      "disabled",
+      "loading",
+      "textColor",
+      "hoverColor",
+      "checkColor",
+      "className",
+      "before",
+      "change"
+    ],
+    "description": "Radio"
+  },
+  "w-radio-group": {
+    "attributes": [
+      "value",
+      "options",
+      "fieldNames",
+      "disabled",
+      "hoverColor",
+      "checkColor",
+      "className",
+      "radioClassName",
+      "before",
+      "change"
+    ],
+    "subtags": ["w-radio"],
+    "description": "Radio of group"
+  },
+  "w-row": {
+    "attributes": [
+      "tag",
+      "className",
+      "align",
+      "justify",
+      "basin",
+      "gutter",
+      "type"
+    ],
+    "subtags": ["w-col"],
+    "description": "A row in grid system"
+  },
+  "w-scroll": {
+    "attributes": [
+      "noResize",
+      "disabled",
+      "loading",
+      "openPull",
+      "stopPropagation",
+      "preventDefault",
+      "edgeIsPreventDefault",
+      "scrollStep",
+      "threshold",
+      "type",
+      "preventDefaultException",
+      "scroll",
+      "pulling",
+      "wrapClassName",
+      "bodyClassName"
+    ],
+    "description": "Page scroll"
+  },
+  "w-select": {
+    "attributes": [
+      "value",
+      "options",
+      "fieldNames",
+      "search",
+      "loading",
+      "disabled",
+      "transfer",
+      "emptyText",
+      "mode",
+      "size",
+      "placeholder",
+      "prefix",
+      "suffix",
+      "placement",
+      "interval",
+      "zIndex",
+      "before",
+      "getContainer",
+      "change",
+      "focus",
+      "blur",
+      "click"
+    ],
+    "description": "Select component to select value from options."
+  },
+  "w-spin": {
+    "attributes": [
+      "value",
+      "tip",
+      "size",
+      "color",
+      "finish"
+    ],
+    "description": "A spinner for displaying loading state of a page or a section."
+  },
+  "w-statistic": {
+    "attributes": [
+      "value",
+      "precision",
+      "title",
+      "groupSeparator",
+      "valueStyle",
+      "valueRender"
+    ],
+    "description": "Statistic"
+  },
+  "w-switch": {
+    "attributes": [
+      "value",
+      "disabled",
+      "loading",
+      "stop",
+      "size",
+      "before",
+      "change"
+    ],
+    "description": "Switching Selector."
+  },
+  "w-table": {
+    "attributes": [
+      "col",
+      "options",
+      "showSort",
+      "border",
+      "loading",
+      "showHeader",
+      "scroll",
+      "size",
+      "header",
+      "footer"
+    ],
+    "description": "A table displays rows of data."
+  },
+  "w-tag": {
+    "attributes": [
+      "value",
+      "disabled",
+      "loading",
+      "stop",
+      "inline",
+      "closable",
+      "size",
+      "color",
+      "colorType",
+      "close"
+    ],
+    "description": "Tag for categorizing or markup."
+  },
+  "w-text": {
+    "attributes": [
+      "value",
+      "disabled",
+      "strong",
+      "underline",
+      "mark",
+      "code",
+      "delete",
+      "type",
+      "markStyle"
+    ],
+    "description": "Text"
+  },
+  "w-timeline": {
+    "attributes": [
+      "mode"
+    ],
+    "subtags": ["w-timeline-item"],
+    "description": "Vertical display timeline."
+  },
+  "w-timeline-item": {
+    "attributes": [
+      "timestamp",
+      "color",
+      "title",
+      "format",
+      "finish"
+    ],
+    "description": "Vertical display timeline item."
+  },
+  "w-timepicker": {
+    "attributes": [
+      "value",
+      "placeholder",
+      "size",
+      "format",
+      "valueFormat",
+      "placement",
+      "interval",
+      "editable",
+      "disabled",
+      "open",
+      "transfer",
+      "clearable",
+      "pickerStyle",
+      "disabledHourRender",
+      "disabledMinuteRender",
+      "disabledSecondRender",
+      "getContainer",
+      "change"
+    ],
+    "description": "To select or input a date of time."
+  },
+  "w-tooltip": {
+    "attributes": [
+      "value",
+      "transfer",
+      "enterDelay",
+      "leaveDelay",
+      "interval",
+      "placement",
+      "trigger",
+      "content",
+      "arrowColor",
+      "contentStyle",
+      "getContainer",
+      "change",
+      "className"
+    ],
+    "description": "A simple text popup tip."
+  }
+}

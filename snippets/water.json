@@ -1,0 +1,14 @@
+{
+  "modal-confirm": {
+    "prefix": "confirm",
+    "body": [
+      "this.\\$confirm.'${1:warning}'({",
+      "\tcontent: '${2:title}',",
+      "\tcontent: '${3:content}',",
+      "\tokText: '${4:ok}',",
+      "\tcancelText: '${5:cancel}',",
+      "})"
+    ],
+    "description": "confirm 确认弹框 0.13.0 新增"
+  }
+}

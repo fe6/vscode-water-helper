@@ -1,0 +1,12 @@
+{
+	"w-page-jump/prefix": {
+		"description": "设置前缀文案",
+		"optionType": "String",
+		"defaultValue": "跳转"
+	},
+	"w-page-jump/suffix": {
+		"description": "设置后缀文案",
+		"optionType": "String",
+		"defaultValue": "页"
+	}
+}

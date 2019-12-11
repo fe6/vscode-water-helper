@@ -1,0 +1,27 @@
+{
+	"w-check-tag/disabled": {
+		"description": "设置禁用状态",
+		"optionType": "Boolean",
+		"defaultValue": "-"
+	},
+	"w-check-tag/loading": {
+		"description": "设置载入状态",
+		"optionType": "Boolean",
+		"defaultValue": "-"
+	},
+	"w-check-tag/inline": {
+		"description": "是否有 inline-block ，属性排长一行",
+		"optionType": "Boolean",
+		"defaultValue": "true"
+  },
+	"w-check-tag/size": {
+		"description": "设置大小",
+    "options": [
+      "small",
+      "large",
+      "不设置"
+    ],
+		"optionType": "String",
+		"defaultValue": "-"
+	}
+}
