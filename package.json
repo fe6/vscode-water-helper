@@ -12,8 +12,9 @@
   ],
   "keywords": [
     "water",
-    "@fe6/water",
-    "WATER"
+    "WATER",
+    "vscode-water-helper",
+    "water-helper"
   ],
   "publisher": "fe6",
   "repository": {
