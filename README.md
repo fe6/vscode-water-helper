@@ -12,7 +12,16 @@
 <img src="https://static2.evente.cn/static/img/water.gif" alt="自动补全的示例" style="display: block; width: 288px;" />
 
 
+### 0.0.2
+
+> 2019-12-12
+
+- [fix] 修复本地调试生效，打包发布之后不生效，原因是 shelljs 没安装。
+
+
 ### 0.0.1
+
+> 2019-12-12
 
 最初发布...
 
