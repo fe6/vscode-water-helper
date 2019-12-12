@@ -1,0 +1,45 @@
+{
+	"w-badge/value": {
+		"description": "徽章上显示的数字",
+		"optionType": "Number",
+		"defaultValue": "0"
+	},
+	"w-badge/overflowCount": {
+		"description": "展示封顶的数字值",
+		"optionType": "Number",
+		"defaultValue": "99"
+	},
+	"w-badge/status": {
+    "description": "设置 Badge 为状态点",
+    "options": [
+      "success",
+      "processing",
+      "default",
+      "error",
+      "warning",
+      "颜色的色值"
+    ],
+		"optionType": "String",
+		"defaultValue": "-"
+	},
+	"w-badge/text": {
+		"description": "在设置了 status 的前提下有效，设置状态点的文本",
+		"optionType": "String",
+		"defaultValue": "-"
+	},
+	"w-badge/title": {
+		"description": "设置鼠标放在状态点上时显示的文字",
+		"optionType": "String",
+		"defaultValue": "-"
+	},
+	"w-badge/showZero": {
+		"description": "当数值为 0 时，是否展示 Badge",
+		"optionType": "Boolean",
+		"defaultValue": "false"
+	},
+	"w-badge/dot": {
+		"description": "不展示数字，只有一个小红点",
+		"optionType": "Boolean",
+		"defaultValue": "false"
+	}
+}

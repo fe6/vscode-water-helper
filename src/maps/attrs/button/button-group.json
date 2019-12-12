@@ -1,0 +1,12 @@
+{
+	"w-button-group/value": {
+		"description": "与 button 的 value 匹配，控制当前选中状态",
+		"optionType": "String | Number",
+		"defaultValue": "-"
+	},
+	"w-button-group/className": {
+		"description": "自定义按钮组最外层的 class",
+		"optionType": "String | Object | Array",
+		"defaultValue": "-"
+	}
+}

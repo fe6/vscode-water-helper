@@ -1,0 +1,102 @@
+{
+	"w-cascader/value": {
+		"description": "选中的值",
+		"optionType": "String[]",
+		"defaultValue": "-"
+	},
+	"w-cascader/options": {
+		"description": "指定可选项， 每项具体设置参照 fieldNames 参数",
+		"optionType": "Array",
+		"defaultValue": "-"
+	},
+	"w-cascader/fieldNames": {
+		"description": "自定义属性的字段名",
+		"optionType": "Object",
+		"defaultValue": "{ value: 'value', label: 'label', children: 'children', loading: 'loading', disabled: 'disabled' }"
+	},
+	"w-cascader/search": {
+		"description": "搜索的开关",
+		"optionType": "Boolean",
+		"defaultValue": "-"
+	},
+	"w-cascader/loading": {
+		"description": "设置载入状态",
+		"optionType": "Boolean",
+		"defaultValue": "-"
+	},
+	"w-cascader/disabled": {
+		"description": "设置禁用状态",
+		"optionType": "Boolean",
+		"defaultValue": "-"
+	},
+	"w-cascader/transfer": {
+		"description": "是否转移到 body 下",
+		"optionType": "Boolean",
+		"defaultValue": "true"
+	},
+	"w-cascader/emptyText": {
+		"description": "搜索未匹配到的文案",
+		"optionType": "String",
+		"defaultValue": "未匹配到结果"
+	},
+	"w-cascader/searchWidth": {
+		"description": "搜索模式，弹框的宽度",
+		"optionType": "String",
+		"defaultValue": "-"
+	},
+	"w-cascader/size": {
+		"description": "设置大小",
+    "options": [
+      "small",
+      "large",
+      "不设置"
+    ],
+		"optionType": "String",
+		"defaultValue": "date"
+	},
+	"w-cascader/placeholder": {
+		"description": "输入框占位文本",
+		"optionType": "String",
+		"defaultValue": "请选择"
+	},
+	"w-cascader/placement": {
+		"description": "下拉框位置",
+		"optionType": "String",
+		"defaultValue": "bottomLeft"
+	},
+	"w-cascader/interval": {
+		"description": "下拉框间距，单位 px",
+		"optionType": "Number",
+		"defaultValue": "4"
+	},
+	"w-cascader/before": {
+		"description": "改变之前触发，返回 Promise 对象",
+		"optionType": "Function",
+		"defaultValue": "function() {return new Promise((resolve, reject) => {resolve();});}"
+	},
+	"w-cascader/getContainer": {
+		"description": "浮层渲染父节点，默认渲染到 body 上。支持返回 Promise",
+		"optionType": "Function",
+		"defaultValue": "-"
+	},
+	"w-cascader/searchRender": {
+		"description": "搜索模式，搜索后展示的渲染函数。 返回 {当前render方法的渲染函数， 搜索关键词，每条搜索结果的数据，所有搜索结果集合}(createElement,searchKeyWord,item,searchResult)",
+		"optionType": "Function",
+		"defaultValue": "-"
+	},
+	"w-cascader/displayRender": {
+		"description": "选择后展示的渲染函数。 返回{选到最后一级之后的数据，所有点击元素的数据，真正的value值，选择时候的value 值。所有下拉选项配置，当前点击选项的数据}(chooseResult, chooseAllItem, realValue, chooseValue, options, currentOption)",
+		"optionType": "Function",
+		"defaultValue": "-"
+	},
+	"w-cascader/change": {
+		"description": "改变触发，返回 {当前选项的label值，当前多级值的集合，下拉选项，当前索引，级数索引，下一级的数据，Event对象,当前选中的数据}({current,value,options,index,floor,nextPanel,ev,item})",
+		"optionType": "Function",
+		"defaultValue": "({current,value,options,index,floor,nextPanel,ev,item}) => {}"
+	},
+	"w-cascader/click": {
+		"description": "点击触发，返回 Event 对象",
+		"optionType": "Function",
+		"defaultValue": "(ev) => {}"
+	}
+}

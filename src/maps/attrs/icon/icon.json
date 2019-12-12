@@ -1,0 +1,17 @@
+{
+	"w-icon/spin": {
+		"description": "是否有旋转动画",
+		"optionType": "Boolean",
+		"defaultValue": "-"
+	},
+	"w-icon/color": {
+		"description": "自定义默认图片的颜色",
+		"optionType": "String",
+		"defaultValue": "#333"
+	},
+	"w-icon/className": {
+		"description": "自定义组件最外层的 class 名字",
+		"optionType": "String | Object | Array",
+		"defaultValue": "-"
+	}
+}

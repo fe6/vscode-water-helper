@@ -1,0 +1,90 @@
+{
+	"w-popover/value": {
+		"description": "显示状态",
+		"optionType": "Boolean",
+		"defaultValue": "-"
+	},
+	"w-popover/transfer": {
+		"description": "是否转移到 body 下",
+		"optionType": "Boolean",
+		"defaultValue": "true"
+	},
+	"w-popover/enterDelay": {
+		"description": "鼠标移入后延时多少才显示 Tooltip ，单位：毫秒",
+		"optionType": "Number",
+		"defaultValue": "0"
+	},
+	"w-popover/leaveDelay": {
+		"description": "鼠标移出后延时多少才隐藏 Tooltip ，单位：毫秒",
+		"optionType": "Number",
+		"defaultValue": "100"
+	},
+	"w-popover/interval": {
+		"description": "下拉框间距，单位 px",
+		"optionType": "Number",
+		"defaultValue": "4"
+	},
+	"w-popover/placement": {
+		"description": "气泡框位置",
+    "options": [
+      "top",
+      "bottom",
+      "topLeft",
+      "topRight",
+      "bottomLeft",
+      "bottomRight",
+      "left",
+      "right",
+      "leftTop",
+      "leftBottom",
+      "rightTop",
+      "rightBottom"
+    ],
+		"optionType": "String",
+		"defaultValue": "top"
+	},
+	"w-popover/trigger": {
+		"description": "触发行为",
+    "options": [
+      "hover",
+      "click"
+    ],
+		"optionType": "String",
+		"defaultValue": "hover"
+	},
+	"w-popover/content": {
+		"description": "内容",
+		"optionType": "String",
+		"defaultValue": "-"
+	},
+	"w-popover/arrowColor": {
+		"description": "三角的颜色",
+		"optionType": "String",
+		"defaultValue": "-"
+	},
+	"w-popover/titleStyle": {
+		"description": "标题的样式",
+		"optionType": "Object",
+		"defaultValue": "-"
+	},
+	"w-popover/contentStyle": {
+		"description": "内容的样式",
+		"optionType": "Object",
+		"defaultValue": "-"
+	},
+	"w-popover/className": {
+		"description": "组件最外层的 class 名字",
+		"optionType": "String | Object | Array",
+		"defaultValue": "-"
+	},
+	"w-popover/getContainer": {
+		"description": "浮层渲染父节点，默认渲染到 body 上。支持返回 Promise",
+		"optionType": "Function",
+		"defaultValue": "-"
+	},
+	"w-popover/change": {
+		"description": "改变触发，返回 状态 ( status )",
+		"optionType": "Function",
+		"defaultValue": "(status) => {}"
+	}
+}

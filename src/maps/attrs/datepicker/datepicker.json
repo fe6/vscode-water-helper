@@ -1,0 +1,118 @@
+{
+	"w-datepicker/value": {
+		"description": "选中的值",
+		"optionType": "Boolean, Number, String",
+		"defaultValue": "-"
+	},
+	"w-datepicker/disabled": {
+		"description": "设置禁用状态",
+		"optionType": "Boolean",
+		"defaultValue": "-"
+	},
+	"w-datepicker/transfer": {
+		"description": "是否转移到 body 下",
+		"optionType": "Boolean",
+		"defaultValue": "true"
+	},
+	"w-datepicker/editable": {
+		"description": "文本框可输入",
+		"optionType": "Boolean",
+		"defaultValue": "false"
+	},
+	"w-datepicker/open": {
+		"description": "控制弹层是否展开",
+		"optionType": "Boolean",
+		"defaultValue": "false"
+	},
+	"w-datepicker/clearable": {
+		"description": "是否显示清除按钮",
+		"optionType": "Boolean",
+		"defaultValue": "true"
+	},
+	"w-calendar/type": {
+		"description": "日历类型",
+    "options": [
+      "week",
+      "month",
+      "year",
+      "age",
+      "date",
+      "datetime"
+    ],
+		"optionType": "String",
+		"defaultValue": "date"
+	},
+	"w-datepicker/defaultPickerValue": {
+		"description": "当 v-model ( value ) 为空时，选择器打开时默认显示的时间",
+		"optionType": "String",
+		"defaultValue": "-"
+	},
+	"w-datepicker/size": {
+		"description": "设置大小",
+    "options": [
+      "small",
+      "large",
+      "不设置"
+    ],
+		"optionType": "String",
+		"defaultValue": "top"
+	},
+	"w-datepicker/placeholder": {
+		"description": "输入框占位文本",
+		"optionType": "String",
+		"defaultValue": "-"
+	},
+	"w-datepicker/format": {
+		"description": "显示在输入框中的格式，参考 moment 的日期格式",
+		"optionType": "String",
+		"defaultValue": "YYYY-MM-DD"
+	},
+	"w-datepicker/valueFormat": {
+		"description": "绑定值的格式，参考 moment 的日期格式",
+		"optionType": "String",
+		"defaultValue": "YYYY-MM-DD"
+	},
+	"w-datepicker/placement": {
+		"description": "气泡框位置",
+    "options": [
+      "top",
+      "bottom",
+      "topLeft",
+      "topRight",
+      "bottomLeft",
+      "bottomRight"
+    ],
+		"optionType": "String",
+		"defaultValue": "top"
+	},
+	"w-datepicker/interval": {
+		"description": "下拉框间距，单位 p",
+		"optionType": "Number",
+		"defaultValue": "0"
+	},
+	"w-datepicker/firstDayOfWeek": {
+		"description": "周起始日，默认： 日",
+		"optionType": "Number",
+		"defaultValue": "0"
+	},
+	"w-datepicker/pickerRender": {
+		"description": "自定义日期单元格的内容和样式",
+		"optionType": "Function",
+		"defaultValue": "-"
+	},
+	"w-datepicker/disabledRender": {
+		"description": "禁止选择部分日期",
+		"optionType": "Function",
+		"defaultValue": "-"
+	},
+	"w-cascader/getContainer": {
+		"description": "浮层渲染父节点，默认渲染到 body 上。支持返回 Promise",
+		"optionType": "Function",
+		"defaultValue": "-"
+	},
+	"w-datepicker/change": {
+		"description": "输入时触发的方法，返回 {Event对象,处理过的值,格式的值,当前的对象,当前行}({ev,trueValue,value,item,dateWeek})",
+		"optionType": "Function",
+		"defaultValue": "({ev,trueValue,value,item,dateWeek}) => {}"
+	}
+}

@@ -1,0 +1,47 @@
+{
+	"w-page/value": {
+		"description": "当前页数",
+		"optionType": "Number",
+		"defaultValue": "-"
+	},
+	"w-page/prevText": {
+		"description": "上一页文案",
+		"optionType": "String",
+		"defaultValue": "-"
+	},
+	"w-page/nextText": {
+		"description": "下一页文案",
+		"optionType": "String",
+		"defaultValue": "-"
+	},
+	"w-page/total": {
+		"description": "数据总数",
+		"optionType": "Number",
+		"defaultValue": "50"
+	},
+	"w-page/midleSize": {
+		"description": "数据过多的时候省略号中间的个数",
+		"optionType": "Number",
+		"defaultValue": "5"
+	},
+	"w-page/pageSize": {
+		"description": "每页条数",
+		"optionType": "Number",
+		"defaultValue": "10"
+	},
+	"w-page/simple": {
+		"description": "当添加该属性时，显示为简单分页",
+		"optionType": "Boolean",
+		"defaultValue": "-"
+	},
+	"w-page/change": {
+		"description": "状态改变触发的方法，返回 当前页数 ( currentPage )",
+		"optionType": "Function",
+		"defaultValue": "(currentPage) => {}"
+	},
+	"w-page/showTotal": {
+		"description": "用于显示数据总量和当前数据顺序，返回 {总数,区间}({total, range})",
+		"optionType": "Function",
+		"defaultValue": "({total, range}) => {}"
+	}
+}
