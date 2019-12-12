@@ -27,7 +27,7 @@
     "onLanguage:pug"
   ],
   "main": "./out/extension.js",
-  "icon": "https://static2.evente.cn/static/img/water.png",
+  "icon": "img/water.png",
   "contributes": {
     "configuration": {
       "type": "object",
