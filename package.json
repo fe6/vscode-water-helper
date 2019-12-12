@@ -15,7 +15,7 @@
     "@fe6/water",
     "WATER"
   ],
-  "publisher": "iq9891",
+  "publisher": "fe6",
   "repository": {
     "type": "git",
     "url": "https://github.com/fe6/vscode-water-helper"
