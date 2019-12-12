@@ -1,0 +1,625 @@
+{ 
+  "w-affix": {
+    "attributes": [
+      "offsetBottom",
+      "offsetTop",
+      "index",
+      "disabled",
+      "destroy",
+      "position",
+      "change"
+    ],
+    "description": "使元素坚持视口。"
+  },
+  "w-badge": {
+    "defaults": ["v-model"],
+    "attributes": [
+      "value",
+      "overflowCount",
+      "status",
+      "text",
+      "title",
+      "showZero",
+      "dot"
+    ],
+    "description": "UI元素的小数值或状态描述符。"
+  },
+  "w-breadcrumb": {
+    "subtags": ["w-breadcrumb-item"],
+    "description": "面包屑显示层次结构中的当前位置。 它允许返回到层次结构中较高的状态。"
+  },
+  "w-breadcrumb-item": {
+    "attributes": [
+      "separator",
+      "to",
+      "routerType",
+      "open",
+      "href"
+    ],
+    "description": "面包屑元素。"
+  },
+  "w-button": {
+    "attributes": [
+      "type",
+      "size",
+      "htmlType",
+      "loading",
+      "stop",
+      "disabled",
+      "ghost",
+      "className",
+      "click"
+    ],
+    "description": "按钮。"
+  },
+  "w-button-group": {
+    "defaults": ["v-model"],
+    "attributes": [
+      "value",
+      "className"
+    ],
+    "subtags": ["w-button"],
+    "description": "按钮组。"
+  },
+  "w-calendar": {
+    "defaults": ["v-model"],
+    "attributes": [
+      "value",
+      "type",
+      "defaultPickerValue",
+      "showDate",
+      "showMonth",
+      "showYear",
+      "showAge",
+      "firstDayOfWeek",
+      "pickerRender",
+      "change"
+    ],
+    "description": "用于以日历形式显示数据的容器。"
+  },
+  "w-cascader": {
+    "defaults": ["v-model", "options"],
+    "attributes": [
+      "value",
+      "options",
+      "emptyText",
+      "searchWidth",
+      "placeholder",
+      "placement",
+      "size",
+      "loading",
+      "disabled",
+      "search",
+      "transfer",
+      "interval",
+      "fieldNames",
+      "before",
+      "getContainer",
+      "searchRender",
+      "displayRender",
+      "change",
+      "click"
+    ],
+    "description": "级联选择框。"
+  },
+  "w-checkbox": {
+    "defaults": ["v-model"],
+    "attributes": [
+      "value",
+      "label",
+      "disabled",
+      "indeterminate",
+      "textColor",
+      "hoverColor",
+      "checkColor",
+      "className",
+      "change"
+    ],
+    "description": "多选"
+  },
+  "w-checkbox-group": {
+    "defaults": ["v-model"],
+    "attributes": [
+      "value",
+      "disabled",
+      "hoverColor",
+      "checkColor",
+      "className",
+      "checkboxClassName",
+      "fieldNames",
+      "options",
+      "change"
+    ],
+    "subtags": ["w-checkbox"],
+    "description": "多选组"
+  },
+  "w-col": {
+    "defaults": [":span"],
+    "attributes": [
+      "tag",
+      "className",
+      "span",
+      "order",
+      "offset",
+      "pull",
+      "push",
+      "xs",
+      "sm",
+      "md",
+      "lg",
+      "xl",
+      "xxl",
+      "basin",
+      "gutter",
+      "type"
+    ],
+    "description": "网格系统中的一列。"
+  },
+  "w-countdown": {
+    "defaults": ["v-model"],
+    "attributes": [
+      "value",
+      "valueStyle",
+      "title",
+      "format",
+      "finish"
+    ],
+    "description": "倒计时。"
+  },
+  "w-datepicker": {
+    "defaults": ["v-model"],
+    "attributes": [
+      "value",
+      "type",
+      "defaultPickerValue",
+      "placeholder",
+      "size",
+      "format",
+      "valueFormat",
+      "placement",
+      "interval",
+      "firstDayOfWeek",
+      "pickerRender",
+      "disabledRender",
+      "getContainer",
+      "change",
+      "panelChange",
+      "transfer",
+      "editable",
+      "disabled",
+      "open",
+      "clearable",
+      "calendar"
+    ],
+    "description": "选择或输入日期。"
+  },
+  "w-empty": {
+    "attributes": [
+      "image",
+      "imageStyle"
+    ],
+    "description": "空状态。"
+  },
+  "w-icon": {
+    "attributes": [
+      "spin",
+      "className",
+      "color"
+    ],
+    "description": "语义矢量图形。"
+  },
+  "w-input": {
+    "defaults": ["v-model"],
+    "attributes": [
+      "value",
+      "maxLength",
+      "placeholder",
+      "size",
+      "type",
+      "disabled",
+      "showWordLimit",
+      "readonly",
+      "error",
+      "change"
+    ],
+    "description": "用于获取用户输入的基本小部件是文本字段。"
+  },
+  "w-input-number": {
+    "defaults": ["v-model"],
+    "attributes": [
+      "value",
+      "disabled",
+      "readonly",
+      "min",
+      "max",
+      "step",
+      "precision",
+      "size",
+      "decimalSeparator",
+      "formatter",
+      "parser",
+      "change"
+    ],
+    "description": "用鼠标或键盘输入一定范围内的数字。"
+  },
+  "w-link": {
+    "attributes": [
+      "tag",
+      "href",
+      "target",
+      "size",
+      "loading",
+      "to",
+      "disabled"
+    ],
+    "description": "链接"
+  },
+  "w-modal": {
+    "defaults": ["v-model"],
+    "attributes": [
+      "value",
+      "loading",
+      "mask",
+      "maskClosable",
+      "closable",
+      "esc",
+      "center",
+      "cancelable",
+      "okable",
+      "transfer",
+      "getContainer",
+      "before",
+      "cancel",
+      "ok",
+      "change",
+      "title",
+      "cancelText",
+      "okText",
+      "okType",
+      "modalStyle",
+      "bodyStyle",
+      "footerClassName",
+      "titleClassName",
+      "bodyClassName"
+    ],
+    "description": "对话框。"
+  },
+  "w-page": {
+    "defaults": ["v-model"],
+    "attributes": [
+      "value",
+      "prevText",
+      "nextText",
+      "size",
+      "total",
+      "midleSize",
+      "pageSize",
+      "simple",
+      "change",
+      "showTotal"
+    ],
+    "description": "翻页。"
+  },
+  "w-page-jump": {
+    "defaults": ["v-model"],
+    "attributes": [
+      "value",
+      "size",
+      "prefix",
+      "suffix"
+    ],
+    "description": "翻页跳转。"
+  },
+  "w-popconfirm": {
+    "defaults": ["v-model"],
+    "attributes": [
+      "value",
+      "transfer",
+      "loading",
+      "interval",
+      "placement",
+      "trigger",
+      "cancelText",
+      "okText",
+      "getContainer",
+      "before",
+      "change",
+      "cancel",
+      "ok",
+      "className"
+    ],
+    "description": "一个简单而紧凑的动作确认对话框。"
+  },
+  "w-popover": {
+    "attributes": [
+      "value",
+      "transfer",
+      "enterDelay",
+      "leaveDelay",
+      "interval",
+      "placement",
+      "trigger",
+      "content",
+      "arrowColor",
+      "titleStyle",
+      "contentStyle",
+      "getContainer",
+      "change",
+      "className"
+    ],
+    "description": "通过单击或悬停弹出卡。"
+  },
+  "w-progress": {
+    "defaults": ["v-model"],
+    "attributes": [
+      "value",
+      "strokeWidth",
+      "width",
+      "type",
+      "strokeLinecap",
+      "status",
+      "format",
+      "inside"
+    ],
+    "description": "显示操作流程的当前进度。"
+  },
+  "w-radio": {
+    "defaults": ["v-model", "label"],
+    "attributes": [
+      "value",
+      "label",
+      "disabled",
+      "loading",
+      "textColor",
+      "hoverColor",
+      "checkColor",
+      "className",
+      "before",
+      "change"
+    ],
+    "description": "单选。"
+  },
+  "w-radio-group": {
+    "defaults": ["v-model"],
+    "attributes": [
+      "value",
+      "options",
+      "fieldNames",
+      "disabled",
+      "hoverColor",
+      "checkColor",
+      "className",
+      "radioClassName",
+      "before",
+      "change"
+    ],
+    "subtags": ["w-radio"],
+    "description": "单选组。"
+  },
+  "w-row": {
+    "attributes": [
+      "tag",
+      "className",
+      "align",
+      "justify",
+      "basin",
+      "gutter",
+      "type"
+    ],
+    "subtags": ["w-col"],
+    "description": "网格系统中的一行"
+  },
+  "w-scroll": {
+    "attributes": [
+      "noResize",
+      "disabled",
+      "loading",
+      "openPull",
+      "stopPropagation",
+      "preventDefault",
+      "edgeIsPreventDefault",
+      "scrollStep",
+      "threshold",
+      "type",
+      "preventDefaultException",
+      "scroll",
+      "pulling",
+      "wrapClassName",
+      "bodyClassName"
+    ],
+    "description": "自定义滚动。"
+  },
+  "w-select": {
+    "defaults": ["v-model"],
+    "attributes": [
+      "value",
+      "options",
+      "fieldNames",
+      "search",
+      "loading",
+      "disabled",
+      "transfer",
+      "emptyText",
+      "mode",
+      "size",
+      "placeholder",
+      "prefix",
+      "suffix",
+      "placement",
+      "interval",
+      "zIndex",
+      "before",
+      "getContainer",
+      "change",
+      "focus",
+      "blur",
+      "click"
+    ],
+    "description": "选择组件以从选项中选择值。"
+  },
+  "w-spin": {
+    "defaults": ["v-model"],
+    "attributes": [
+      "value",
+      "tip",
+      "size",
+      "color",
+      "finish"
+    ],
+    "description": "用于显示页面或部分的加载状态的微调器。"
+  },
+  "w-statistic": {
+    "defaults": ["v-model"],
+    "attributes": [
+      "value",
+      "precision",
+      "title",
+      "groupSeparator",
+      "valueStyle",
+      "valueRender"
+    ],
+    "description": "统计数值"
+  },
+  "w-switch": {
+    "defaults": ["v-model"],
+    "attributes": [
+      "value",
+      "disabled",
+      "loading",
+      "stop",
+      "size",
+      "before",
+      "change"
+    ],
+    "description": "切换选择器。"
+  },
+  "w-table": {
+    "defaults": ["col", "options"],
+    "attributes": [
+      "col",
+      "options",
+      "showSort",
+      "border",
+      "loading",
+      "showHeader",
+      "scroll",
+      "size",
+      "header",
+      "footer"
+    ],
+    "description": "表格显示数据行。"
+  },
+  "w-check-tag": {
+    "attributes": [
+      "value",
+      "disabled",
+      "loading",
+      "inline",
+      "size"
+    ],
+    "description": "高亮功能的标签。"
+  },
+  "w-new-tag": {
+    "attributes": [
+      "value",
+      "disabled",
+      "loading",
+      "stop",
+      "size",
+      "placeholder",
+      "error",
+      "before",
+      "change"
+    ],
+    "description": "新建标签。"
+  },
+  "w-tag": {
+    "attributes": [
+      "disabled",
+      "loading",
+      "stop",
+      "inline",
+      "closable",
+      "size",
+      "color",
+      "colorType",
+      "close"
+    ],
+    "description": "用于分类或标记的标签。"
+  },
+  "w-text": {
+    "attributes": [
+      "value",
+      "disabled",
+      "strong",
+      "underline",
+      "mark",
+      "code",
+      "delete",
+      "type",
+      "markStyle"
+    ],
+    "description": "文本。"
+  },
+  "w-timeline": {
+    "attributes": [
+      "mode"
+    ],
+    "subtags": ["w-timeline-item"],
+    "description": "垂直显示时间轴。"
+  },
+  "w-timeline-item": {
+    "defaults": ["timestamp"],
+    "attributes": [
+      "timestamp",
+      "color",
+      "title",
+      "format",
+      "finish"
+    ],
+    "description": "垂直显示时间轴项目。"
+  },
+  "w-timepicker": {
+    "defaults": ["v-model"],
+    "attributes": [
+      "value",
+      "placeholder",
+      "size",
+      "format",
+      "valueFormat",
+      "placement",
+      "interval",
+      "editable",
+      "disabled",
+      "open",
+      "transfer",
+      "clearable",
+      "pickerStyle",
+      "disabledHourRender",
+      "disabledMinuteRender",
+      "disabledSecondRender",
+      "getContainer",
+      "change"
+    ],
+    "description": "选择或输入时间。"
+  },
+  "w-tooltip": {
+    "defaults": ["content"],
+    "attributes": [
+      "value",
+      "transfer",
+      "enterDelay",
+      "leaveDelay",
+      "interval",
+      "placement",
+      "trigger",
+      "content",
+      "arrowColor",
+      "contentStyle",
+      "getContainer",
+      "change",
+      "className"
+    ],
+    "description": "一个简单的文本弹出提示。"
+  }
+}

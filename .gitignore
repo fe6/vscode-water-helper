@@ -2,3 +2,12 @@ out
 node_modules
 .vscode-test/
 *.vsix
+.DS_Store
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
