@@ -1,5 +1,5 @@
 {
-	"w-input/value": {
+	"w-input-number/value": {
 		"description": "改变的值",
 		"optionType": "String | Number",
 		"defaultValue": "-"

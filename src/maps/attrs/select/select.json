@@ -69,7 +69,7 @@
 		"optionType": "String",
 		"defaultValue": "-"
 	},
-	"w-select/prefix": {
+	"w-select/suffix": {
 		"description": "选中的后缀",
 		"optionType": "String",
 		"defaultValue": "-"
@@ -94,9 +94,14 @@
 		"defaultValue": "bottom"
 	},
 	"w-select/interval": {
-		"description": "下拉框间距，单位 p",
+		"description": "下拉框间距，单位 px",
 		"optionType": "Number",
 		"defaultValue": "0"
+	},
+	"w-select/zIndex": {
+		"description": "下拉弹出的层级",
+		"optionType": "Number",
+		"defaultValue": "1"
 	},
 	"w-select/getContainer": {
 		"description": "浮层渲染父节点，默认渲染到 body 上。支持返回 Promise",

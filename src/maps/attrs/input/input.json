@@ -19,6 +19,11 @@
 		"optionType": "String",
 		"defaultValue": "-"
 	},
+	"w-input/type": {
+		"description": "设置 input 原生的 type 值",
+		"optionType": "String",
+		"defaultValue": "text"
+	},
 	"w-input/size": {
 		"description": "设置大小",
     "options": [

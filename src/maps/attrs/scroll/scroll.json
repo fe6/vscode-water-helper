@@ -14,11 +14,6 @@
 		"optionType": "Boolean",
 		"defaultValue": "-"
 	},
-	"w-scroll/color": {
-		"description": "自定义默认图片的颜色",
-		"optionType": "String",
-		"defaultValue": "#333"
-	},
 	"w-scroll/openPull": {
 		"description": "开启加载功能",
 		"optionType": "Boolean",
@@ -72,5 +67,15 @@
 		"description": "加载中触发的方法， 返回值： {Event对象,滚动的比例,滚动的距离,滚动的方向,事件触发类型}({ev, scrollScale, scrollChange, dir, eventType})",
 		"optionType": "Function",
 		"defaultValue": "({ev, scrollScale, scrollChange, dir, eventType}) => {}"
+	},
+	"w-scroll/wrapClassName": {
+		"description": "wrap 自定义 class， 0.20.0 新增",
+		"optionType": "String | Object | Array",
+		"defaultValue": "-"
+	},
+	"w-scroll/bodyClassName": {
+		"description": "body 自定义 class， 0.20.0 新增",
+		"optionType": "String | Object | Array",
+		"defaultValue": "-"
 	}
 }

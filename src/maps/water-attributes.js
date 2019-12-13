@@ -46,8 +46,12 @@ import * as checkTag from './attrs/tag/check-tag.json';
 import * as newTag from './attrs/tag/new-tag.json';
 import * as tag from './attrs/tag/tag.json';
 
+import * as text from './attrs/text/text.json';
+
 import * as timelineItem from './attrs/timeline/timeline-item.json';
 import * as timeline from './attrs/timeline/timeline.json';
+
+import * as timepicker from './attrs/timepicker/timepicker.json';
 
 import * as tooltip from './attrs/tooltip/tooltip.json';
 
@@ -87,7 +91,9 @@ export default {
   ...switchJson,
   ...table,
   ...tag,
+  ...text,
   ...timelineItem,
   ...timeline,
+  ...timepicker,
   ...tooltip,
 };

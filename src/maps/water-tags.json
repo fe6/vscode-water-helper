@@ -102,6 +102,16 @@
     ],
     "description": "级联选择框。"
   },
+  "w-check-tag": {
+    "attributes": [
+      "value",
+      "disabled",
+      "loading",
+      "inline",
+      "size"
+    ],
+    "description": "高亮功能的标签。"
+  },
   "w-checkbox": {
     "defaults": ["v-model"],
     "attributes": [
@@ -284,6 +294,20 @@
     ],
     "description": "对话框。"
   },
+  "w-new-tag": {
+    "attributes": [
+      "value",
+      "disabled",
+      "loading",
+      "stop",
+      "size",
+      "placeholder",
+      "error",
+      "before",
+      "change"
+    ],
+    "description": "新建标签。"
+  },
   "w-page": {
     "defaults": ["v-model"],
     "attributes": [
@@ -430,7 +454,7 @@
     "description": "自定义滚动。"
   },
   "w-select": {
-    "defaults": ["v-model"],
+    "defaults": ["v-model", "options"],
     "attributes": [
       "value",
       "options",
@@ -509,30 +533,6 @@
     ],
     "description": "表格显示数据行。"
   },
-  "w-check-tag": {
-    "attributes": [
-      "value",
-      "disabled",
-      "loading",
-      "inline",
-      "size"
-    ],
-    "description": "高亮功能的标签。"
-  },
-  "w-new-tag": {
-    "attributes": [
-      "value",
-      "disabled",
-      "loading",
-      "stop",
-      "size",
-      "placeholder",
-      "error",
-      "before",
-      "change"
-    ],
-    "description": "新建标签。"
-  },
   "w-tag": {
     "attributes": [
       "disabled",
@@ -549,7 +549,6 @@
   },
   "w-text": {
     "attributes": [
-      "value",
       "disabled",
       "strong",
       "underline",

@@ -44,16 +44,6 @@
 		"optionType": "Object",
 		"defaultValue": "-"
 	},
-	"w-table/wrapClassName": {
-		"description": "wrap 的 class 名字 0.19.0 新增",
-		"optionType": "String | Object | Array",
-		"defaultValue": "-"
-	},
-	"w-table/bodyClassName": {
-		"description": "body 的 class 名字 0.19.0 新增",
-		"optionType": "String | Object | Array",
-		"defaultValue": "-"
-	},
 	"w-table/header": {
 		"description": "列头显示文字",
 		"optionType": "Function",

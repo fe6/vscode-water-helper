@@ -29,7 +29,7 @@
 		"optionType": "Boolean",
 		"defaultValue": "true"
 	},
-	"w-calendar/type": {
+	"w-datepicker/type": {
 		"description": "日历类型",
     "options": [
       "week",
@@ -86,7 +86,7 @@
 		"defaultValue": "top"
 	},
 	"w-datepicker/interval": {
-		"description": "下拉框间距，单位 p",
+		"description": "下拉框间距，单位 px",
 		"optionType": "Number",
 		"defaultValue": "0"
 	},
@@ -109,6 +109,11 @@
 		"description": "浮层渲染父节点，默认渲染到 body 上。支持返回 Promise",
 		"optionType": "Function",
 		"defaultValue": "-"
+	},
+	"w-datepicker/panelChange": {
+		"description": "点击面板的方法，返回 {面板类型,面板数据,当前月份,当前年份,当前年代,当前世纪}({tableType,tableOptions,nowMonth,nowYear,nowRangeYear,nowRangeAge,value})",
+		"optionType": "Function",
+		"defaultValue": "({tableType,tableOptions,nowMonth,nowYear,nowRangeYear,nowRangeAge,value}) => {}"
 	},
 	"w-datepicker/change": {
 		"description": "输入时触发的方法，返回 {Event对象,处理过的值,格式的值,当前的对象,当前行}({ev,trueValue,value,item,dateWeek})",

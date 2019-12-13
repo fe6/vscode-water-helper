@@ -19,6 +19,11 @@
 		"optionType": "Boolean",
 		"defaultValue": "-"
 	},
+	"w-modal/closable": {
+		"description": "是否显示关闭按钮",
+		"optionType": "Boolean",
+		"defaultValue": "true"
+	},
 	"w-modal/esc": {
 		"description": "是否支持键盘 esc 关闭",
 		"optionType": "Boolean",

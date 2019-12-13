@@ -4,6 +4,16 @@
 		"optionType": "Number",
 		"defaultValue": "-"
 	},
+	"w-page-jump/size": {
+		"description": "设置大小",
+    "options": [
+      "small",
+      "large",
+      "不设置"
+    ],
+		"optionType": "String",
+		"defaultValue": "-"
+	},
 	"w-page-jump/prefix": {
 		"description": "设置前缀文案",
 		"optionType": "String",
