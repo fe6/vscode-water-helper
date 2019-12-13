@@ -12,6 +12,13 @@
 <img src="https://static2.evente.cn/static/img/water.gif" alt="自动补全的示例" style="display: block; width: 288px;" />
 
 
+### 0.1.0 & 0.2.0
+
+> 2019-12-14
+
+- [feat] 新增版本和是否必填的指引。
+
+
 ### 0.0.4
 
 > 2019-12-13
