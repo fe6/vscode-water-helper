@@ -12,6 +12,13 @@
 <img src="https://static2.evente.cn/static/img/water.gif" alt="自动补全的示例" style="display: block; width: 288px;" />
 
 
+### 0.0.3
+
+> 2019-12-13
+
+- [fix] 修复 ***w-input*** 的 **error** 和 **showWordLimit** 提示问题。
+
+
 ### 0.0.2
 
 > 2019-12-12
