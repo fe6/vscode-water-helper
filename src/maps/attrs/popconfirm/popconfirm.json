@@ -72,5 +72,10 @@
 		"description": "点击取消触发，返回 状态 ( status )",
 		"optionType": "Function",
 		"defaultValue": "(status) => {}"
+	},
+	"w-popcomfirm/before": {
+		"description": "确定之前触发的方法，返回 Promise 对象",
+		"optionType": "Function",
+		"defaultValue": "function() {return new Promise((resolve, reject) => {resolve();});}"
 	}
 }

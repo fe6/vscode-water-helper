@@ -1,0 +1,105 @@
+{
+	"w-timepicker/value": {
+		"description": "绑定值",
+		"optionType": "Boolean",
+		"defaultValue": "moment().format('HH:mm:ss')"
+	},
+	"w-timepicker/placeholder": {
+		"description": "输入框占位文本",
+		"optionType": "String",
+		"defaultValue": "-"
+	},
+	"w-timepicker/size": {
+		"description": "设置大小",
+    "options": [
+      "small",
+      "large",
+      "不设置"
+    ],
+		"optionType": "String",
+		"defaultValue": "-"
+	},
+	"w-timepicker/format": {
+		"description": "显示在输入框中的格式，参考 moment 的日期格式",
+		"optionType": "String",
+		"defaultValue": "HH:mm:ss"
+	},
+	"w-timepicker/valueFormat": {
+		"description": "绑定值的格式，参考 moment 的日期格式",
+		"optionType": "String",
+		"defaultValue": "HH:mm:ss"
+	},
+	"w-timepicker/placement": {
+		"description": "气泡框位置",
+    "options": [
+      "top",
+      "bottom",
+      "topLeft",
+      "topRight",
+      "bottomLeft",
+      "bottomRight"
+    ],
+		"optionType": "String",
+		"defaultValue": "top"
+	},
+	"w-timepicker/interval": {
+		"description": "下拉框间距，单位 px",
+		"optionType": "Number",
+		"defaultValue": "0"
+	},
+	"w-timepicker/editable": {
+		"description": "文本框可输入",
+		"optionType": "Boolean",
+		"defaultValue": "-"
+	},
+	"w-timepicker/disabled": {
+		"description": "设置禁用状态",
+		"optionType": "Boolean",
+		"defaultValue": "-"
+	},
+	"w-timepicker/open": {
+		"description": "控制弹层是否展开",
+		"optionType": "Boolean",
+		"defaultValue": "false"
+	},
+	"w-timepicker/transfer": {
+		"description": "是否转移到 body 下",
+		"optionType": "Boolean",
+		"defaultValue": "true"
+	},
+	"w-timepicker/clearable": {
+		"description": "是否显示清除按钮",
+		"optionType": "Boolean",
+		"defaultValue": "true"
+	},
+	"w-timepicker/pickerStyle": {
+		"description": "面板样式",
+		"optionType": "String | Object",
+		"defaultValue": "-"
+	},
+	"w-timepicker/disabledHourRender": {
+		"description": "禁用小时的渲染方法",
+		"optionType": "Function",
+		"defaultValue": "-"
+	},
+	"w-timepicker/disabledMinuteRender": {
+		"description": "禁用分钟的渲染方法",
+		"optionType": "Function",
+		"defaultValue": "-"
+	},
+	"w-timepicker/disabledSecondRender": {
+		"description": "禁用秒的渲染方法",
+		"optionType": "Function",
+		"defaultValue": "-"
+	},
+	"w-timepicker/getContainer": {
+		"description": "浮层渲染父节点，默认渲染到 body 上。支持返回 Promise",
+		"optionType": "Function",
+		"defaultValue": "-"
+	},
+	"w-datepicker/change": {
+		"description": "改变的方法，返回 {绑定值, 输入框显示值}({value, text})",
+		"optionType": "Function",
+		"defaultValue": "({value, text}) => {}"
+	}
+}

@@ -12,6 +12,13 @@
 <img src="https://static2.evente.cn/static/img/water.gif" alt="自动补全的示例" style="display: block; width: 288px;" />
 
 
+### 0.0.4
+
+> 2019-12-13
+
+- [fix] 修复遗漏的属性及标签。
+
+
 ### 0.0.3
 
 > 2019-12-13

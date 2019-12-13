@@ -1,7 +1,12 @@
 {
 	"w-checkbox/value": {
-		"description": "选中的值",
-		"optionType": "Boolean, Number, String",
+		"description": "绑定值",
+		"optionType": "Number | String | Boolean",
+		"defaultValue": "-"
+	},
+	"w-checkbox/label": {
+		"description": "设置选中的值",
+		"optionType": "Number | String | Boolean",
 		"defaultValue": "-"
 	},
 	"w-checkbox/disabled": {
