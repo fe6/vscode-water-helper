@@ -20,8 +20,10 @@ import {
   Range,
   EventEmitter,
 } from 'vscode';
-import * as TAGS from './maps/water-tags.json';
-import ATTRS from './maps/water-attributes.js';
+// import * as TAGS from './maps/water-tags.json';
+// import ATTRS from './maps/water-attributes.js';
+import * as TAGS from 'water-helper-maps/out/maps/water-tags.json';
+import ATTRS from 'water-helper-maps/out/maps/water-attributes.js';
 
 const PANEL_NAME = 'Water Vue';
 
@@ -325,7 +327,7 @@ export class WaterCompletionItemProvider implements CompletionItemProvider {
 
   buildAttrSuggestion(
     { attr, tag, bind, method },
-    { description, type, optionType, defaultValue }
+    { description, type, optionType, defaultValue, version, require }
   ) {
     if (
       (method && type === 'method') ||
@@ -333,8 +335,10 @@ export class WaterCompletionItemProvider implements CompletionItemProvider {
       (!method && !bind)
     ) {
       let documentation = description;
-      optionType && (documentation += '\n' + `type: ${optionType}`);
+      optionType && (documentation += '\n\n' + `type: ${optionType}`);
       defaultValue && (documentation += '\n' + `default: ${defaultValue}`);
+      require && (documentation += '\n' + `require: ${require}`);
+      version && (documentation += '\n' + `version: ${version}`);
       return {
         label: attr,
         insertText:

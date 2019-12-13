@@ -71,7 +71,7 @@
   "scripts": {
     "vscode:prepublish": "yarn run compile",
     "compile": "sh build.sh",
-    "watch": "sh build.sh -watch",
+    "start": "sh build.sh -watch",
     "postinstall": "node ./node_modules/vscode/bin/install",
     "test": "node ./out/test/runTest.js",
     "lint": "prettier --write --parser typescript \"src/**/*.ts?(x)\""
@@ -87,7 +87,8 @@
     "tslint": "^5.20.0",
     "typescript": "^3.6.4",
     "vscode": "^1.1.36",
-    "vscode-test": "^1.2.2"
+    "vscode-test": "^1.2.2",
+    "water-helper-maps": "^0.1.0"
   },
   "dependencies": {
     "pretty": "^2.0.0",
