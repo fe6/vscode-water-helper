@@ -2,7 +2,7 @@
   "name": "vscode-water-helper",
   "displayName": "vscode-water-helper",
   "description": "A vscode extension for WATER",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "engines": {
     "vscode": "^1.40.0"
   },
@@ -87,12 +87,12 @@
     "tslint": "^5.20.0",
     "typescript": "^3.6.4",
     "vscode": "^1.1.36",
-    "vscode-test": "^1.2.2",
-    "water-helper-maps": "^0.1.0"
+    "vscode-test": "^1.2.2"
   },
   "dependencies": {
     "pretty": "^2.0.0",
-    "shelljs": "^0.8.3"
+    "shelljs": "^0.8.3",
+    "water-helper-maps": "^0.1.0"
   },
   "pre-commit": [
     "lint"
