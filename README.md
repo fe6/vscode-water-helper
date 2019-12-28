@@ -12,6 +12,12 @@
 <img src="https://static2.evente.cn/static/img/water.gif" alt="自动补全的示例" style="display: block; width: 288px;" />
 
 
+### 0.2.1
+
+> 2019-12-28
+
+- [fix] 修复启动错误。
+
 ### 0.1.0 & 0.2.0
 
 > 2019-12-14
