@@ -91,7 +91,7 @@
   },
   "dependencies": {
     "pretty": "^2.0.0",
-    "shelljs": "^0.8.3",
+    "shelljs": "^0.8.5",
     "water-helper-maps": "^0.1.0"
   },
   "pre-commit": [
